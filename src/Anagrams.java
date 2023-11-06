@@ -25,7 +25,6 @@ public class Anagrams {
         return result;
         // Complete the function
     }
-    //changes are being made
 
     public static void main(String[] args) {
 
@@ -35,7 +34,5 @@ public class Anagrams {
         scan.close();
         boolean ret = isAnagram(a, b);
         System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
-        System.out.println("Here we are");
-        scan.close();
     }
 }
