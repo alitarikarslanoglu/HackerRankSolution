@@ -8,7 +8,7 @@ public class Anagrams {
             return false;
         boolean result= false;
         for (int i = 0; i <a.length() ; i++) {
-            char temp= a.charAt(i);
+            //char temp= a.charAt(i);
             int count_a=0;
             int count_b=0;
             for (int j = 0; j <a.length() ; j++) {
