@@ -8,7 +8,7 @@ public class Anagrams {
             return false;
         boolean result= false;
         for (int i = 0; i <a.length() ; i++) {
-            char temp= a.charAt(i);
+            //char temp= a.charAt(i);
             int count_a=0;
             int count_b=0;
             for (int j = 0; j <a.length() ; j++) {
@@ -25,6 +25,7 @@ public class Anagrams {
         return result;
         // Complete the function
     }
+    //changes are being made
 
     public static void main(String[] args) {
 
@@ -34,5 +35,7 @@ public class Anagrams {
         scan.close();
         boolean ret = isAnagram(a, b);
         System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+        System.out.println("Here we are");
+        scan.close();
     }
 }
